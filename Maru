@@ -123,10 +123,10 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		ClickFrame.Name = "ClickFrame"
 		ClickFrame.Parent = MainSceen
 		ClickFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-		ClickFrame.BackgroundColor3 = Color3.fromRGB(240, 248, 255)
+		ClickFrame.BackgroundColor3 = Color3.fromRGB(0, 3, 0)
 		ClickFrame.BorderSizePixel = 0
 		ClickFrame.Position = UDim2.new(0.5, 0, 0.036, 0)
-		ClickFrame.Size = UDim2.new(0, 534-20, 0, 30)
+		ClickFrame.Size = UDim2.new(0, 534-90, 0, 30)
 		ClickFrame.ClipsDescendants = true
 		ClickFrame.BackgroundTransparency = 1
 
