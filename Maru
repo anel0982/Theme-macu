@@ -193,7 +193,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		ScolTapBarFrame.BorderSizePixel = 0
 		ScolTapBarFrame.BackgroundTransparency = 1
 		ScolTapBarFrame.Position = UDim2.new(0.5, 0, 0.07, 0)
-		ScolTapBarFrame.Size = UDim2.new(0, 300, 0, 25)
+		ScolTapBarFrame.Size = UDim2.new(0, 100, 0, 15)
 		ScolTapBarFrame.ClipsDescendants = true
 
 		local ScrollingFrame_Menubar = Instance.new("ScrollingFrame")
