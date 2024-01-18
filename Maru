@@ -154,7 +154,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		local NameReal = Instance.new("TextLabel")
 
 		NameReal.Parent = MainSceen
-		NameReal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		NameReal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		NameReal.BackgroundTransparency = 1
 		NameReal.BorderSizePixel = 0
 		NameReal.Position = UDim2.new(0.5, 0, 0.05, 0)
@@ -162,8 +162,8 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		NameReal.Size = UDim2.new(0, 136, 0, 34)
 		NameReal.Font = Enum.Font.GothamBold
 		NameReal.Text = tostring(text)
-		NameReal.TextColor3 = Color3.fromRGB(15,15,15)
-		NameReal.TextSize = 14.000
+		NameReal.TextColor3 = Color3.fromRGB(255,255,255)
+		NameReal.TextSize = 15.000
 
 
 		local MainSceen2 = Instance.new("Frame")
