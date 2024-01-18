@@ -110,7 +110,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen.BackgroundColor3 = Color3.fromRGB(18, 251, 83)
 		MainSceen.BorderSizePixel = 0
 		MainSceen.Position = UDim2.new(0.5, 0, 0.5, 0)
-		MainSceen.Size = UDim2.new(0, 100, 50, 0)
+		MainSceen.Size = UDim2.new(0, 0, 0, 0)
 		MainSceen.ClipsDescendants = true
 
 		local Main_UiConner  = Instance.new("UICorner")
@@ -123,15 +123,15 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		ClickFrame.Name = "ClickFrame"
 		ClickFrame.Parent = MainSceen
 		ClickFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-		ClickFrame.BackgroundColor3 = Color3.fromRGB(0, 3, 0)
+		ClickFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ClickFrame.BorderSizePixel = 0
 		ClickFrame.Position = UDim2.new(0.5, 0, 0.036, 0)
-		ClickFrame.Size = UDim2.new(0, 534-90, 0, 30)
+		ClickFrame.Size = UDim2.new(0, 334-90, 0, 30)
 		ClickFrame.ClipsDescendants = true
 		ClickFrame.BackgroundTransparency = 1
 
 		MakeDraggable(ClickFrame,MainSceen)
-		tween:Create(MainSceen,TweenInfo.new(0.4,Enum.EasingStyle.Back),{Size = UDim2.new(0, 550, 0, 474)}):Play()
+		tween:Create(MainSceen,TweenInfo.new(0.4,Enum.EasingStyle.Back),{Size = UDim2.new(0, 300, 0, 244)}):Play()
 
 		local library = {toggledui = false;}
 		game:GetService("UserInputService").InputBegan:Connect(function(input)
